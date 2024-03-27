@@ -2,6 +2,9 @@
 ;   Loads an image encoded to match the structure of the video ram in mode 2.
 ;   Compile with asmsx.   
 ;
+;   Copying from ram to vram can be optimized by using the OUTI instruction. See dump_to_vram_outi
+;
+
 
 .ZILOG
 .BASIC
@@ -16,6 +19,8 @@ start:
     ld a, 2
     call CHGMOD  ; set screen 2
 
+
+; copy image to fill in the char patterns
 change_chars:
 	ld hl, image                ; hd to store the address of the image
 	xor a                       ; a = 0
