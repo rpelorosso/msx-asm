@@ -53,7 +53,7 @@ set_colors:
 .loopb:
     ld c, 0x8 * 3           ; loop 8*3 bytes 
     .loopc:
-        dec c               ; decreace c
+        dec c               ; decrease c
     	out (98h), a        ; output the color value
         inc hl              ; increase pointer to video memory
         jp nz, .loopc       
