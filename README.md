@@ -1,11 +1,11 @@
 # msx-asm
-Small Z80 assembler coding examples for MSX. Written for asmsx.
+Small Z80 assembler examples for MSX. Written for asmsx.
 
 ## Examples:
 
 ### chput
 
-Uses CHPUT bios call to print character
+Uses CHPUT bios call to print a special character
 
 <img src="https://github.com/rpelorosso/msx-asm/assets/6107574/373e8683-7e06-405a-80d1-8d7a5b1a6793" width="35%"/>
 
