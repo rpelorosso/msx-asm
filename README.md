@@ -19,7 +19,7 @@ Uses CHPUT bios calls to print a string
 
 Escribe la NAME TABLE para dibujar un asterisco en la pantalla en modo 0 utilizando llamados al VDP.
 
-![image](https://github.com/rpelorosso/msx-asm/assets/6107574/ee389d2d-ea29-430b-b672-04fcf3bbc2e7)
+<img src="https://github.com/rpelorosso/msx-asm/assets/6107574/ee389d2d-ea29-430b-b672-04fcf3bbc2e7" width="35%"/>
 
 ### h_timi 
 
