@@ -33,5 +33,3 @@ Writes an image stored in Ram to video ram. Doesn´t use OUTI.
 
 <img src="https://github.com/rpelorosso/msx-asm/assets/6107574/545164c4-51f1-4454-aa29-4589d2a05a58" width="35%"/>
 
-
-![image](https://github.com/rpelorosso/msx-asm/assets/6107574/ee389d2d-ea29-430b-b672-04fcf3bbc2e7)
