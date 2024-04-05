@@ -28,7 +28,6 @@ change_chars:
 	out (99h), a                ; write lower byte 
 	ld a, PATTERN_GENERATOR     
 	out (99h), a                ; ouput upper byte
-	ld a, 0xFF                   
     ld b, 0xFF
 .loopb:
     ld c, 0x8 * 3
@@ -44,7 +43,7 @@ change_chars:
 set_colors:
     ; now write color       
     ld a, 0
-    out (0x99), a           ; ourput lower byte 00
+    out (0x99), a           ; output lower byte 00
 	ld a, PATTERN_COLOR               
 	out (0x99), a           ; output upper byte 
     di
