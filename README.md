@@ -1,7 +1,7 @@
 # msx-asm
 Small Z80 assembler examples for MSX. Written for asmsx.
 
-## Examples:
+## Examples
 
 ### chput
 
