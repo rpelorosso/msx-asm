@@ -21,6 +21,12 @@ Escribe la NAME TABLE para dibujar un asterisco en la pantalla en modo 0 utiliza
 
 <img src="https://github.com/rpelorosso/msx-asm/assets/6107574/ee389d2d-ea29-430b-b672-04fcf3bbc2e7" width="35%"/>
 
+### printvdp
+
+Escribe la NAME TABLE para escribir un string en pantalla utilizando un loop.
+
+<img src="https://github.com/rpelorosso/msx-asm/assets/6107574/15bbec2f-eb0e-4cd4-974a-6a682acc54d4" width="35%"/>
+
 ### h_timi 
 
 Hooks to VBlank interrupt
