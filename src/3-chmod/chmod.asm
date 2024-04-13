@@ -11,3 +11,4 @@ CHGMOD equ 0x005F
 
 ld a, 1      ; a = 1
 call CHGMOD  ; llama a funcion del bios que cambia el modo gráfico que indica el registro A
+ret
