@@ -45,13 +45,6 @@ Inicializa un modo gráfico utilizando una llamada a la función CHMOD del bios.
 
 <img src="img/chmod.png" width="35%"/>
 
-### chmod
-
-Dibuja un sprite con llamados a escribir registros del VDP y la tabla de atributos de sprites.
-
-<img src="img/sprite.png" width="35%"/>
-
-
 ### sprites
 
 Escribe la tabla de atributos de sprites, y registros del VDP para mostar un sprite en screen 1.
