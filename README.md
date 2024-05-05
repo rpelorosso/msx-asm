@@ -29,7 +29,7 @@ Escribe la NAME TABLE para escribir un string en pantalla utilizando un loop.
 
 ### h_timi 
 
-Atiende a la interrupción de VBlank, H_TIMI
+Atiende a la interrupción de VBlank, H.TIMI
 
 <img src="img/h_timi.png" width="35%"/>
 
@@ -56,5 +56,28 @@ Escribe la tabla de atributos de sprites, y registros del VDP para mostar un spr
 Escribe una imagen guardada en RAM a VRAM.
 
 <img src="img/dump_to_vram.png" width="35%"/>
+
+
+## Demos
+
+Programitas que usan funciones de los ejemplos pequeños para hacer cosas más complejas.
+
+### demo 0 
+
+Modifica un tile y lo muestra en toda la pantalla.
+
+<img src="img/demo.png" width="35%"/>
+
+### demo 1
+
+Modifica un tile y lo muestra en toda la pantalla, pero también lo anima en cada VBlank, desplazandolo a la izquierda.
+
+<img src="img/demo1.gif" width="35%"/>
+
+### demo 2
+
+Muestra un sprite y lo mueve en cada VBlank
+
+<img src="img/demo2.gif" width="35%"/>
 
 
